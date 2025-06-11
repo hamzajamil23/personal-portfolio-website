@@ -6,9 +6,7 @@ A clean, responsive personal portfolio website built with ReactJS to showcase my
 
 ## 🚀 Live Demo
 
-🌐 [https://personal-portfolio-website.vercel.app](https://personal-portfolio-website.vercel.app)  
-> _(Update this with your actual Vercel URL after deployment)_
-
+🌐 https://personal-portfolio-website-ten-hazel.vercel.app/
 ---
 
 ## ✨ Features
