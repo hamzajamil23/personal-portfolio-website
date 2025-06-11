@@ -1,12 +1,13 @@
 # Hamza Jamil Portfolio
 
-A clean, responsive personal portfolio website built with ReactJS to showcase my professional work, technical skills, and contact information. This project is intended to act as my digital resume and landing page for employers, collaborators, and recruiters.
+A clean, responsive personal portfolio website built with ReactJS to showcase my professional work, technical skills, and contact information. This project acts as my digital resume and landing page for employers, collaborators, and recruiters.
 
 ---
 
 ## 🚀 Live Demo
 
-🌐 
+🌐 [https://personal-portfolio-website.vercel.app](https://personal-portfolio-website.vercel.app)  
+> _(Update this with your actual Vercel URL after deployment)_
 
 ---
 
@@ -24,29 +25,14 @@ A clean, responsive personal portfolio website built with ReactJS to showcase my
 
 ## 🛠 Tech Stack
 
-- **ReactJS** – UI framework
-- **React Bootstrap** – Responsive styling and layout
+- **ReactJS** – Frontend framework
+- **React Bootstrap** – Styling and layout
 - **JavaScript (ES6+)**
 - **HTML5 & CSS3**
 - **Vercel** – Deployment platform
 
 ---
-
-## 📦 Installation
-
-To run the project locally:
-
-```bash
-git clone https://github.com/hamzajamil23/personal-portfolio-webiste.git
-cd personal-portfolio-webiste
-npm install
-npm start
-
-
-
-
-
-# Folder Structure
+## Folder Structure
 Hamza Portfolio Website/
 ├── public/
 │   ├── index.html
@@ -60,25 +46,41 @@ Hamza Portfolio Website/
 ├── package.json
 └── .gitignore
 
-# Deployment (Vercel)
+## ☁️ Deployment (Vercel)
 
 This site is deployed on Vercel:
 	•	Push your code to GitHub
 	•	Import the project into Vercel
-	•	Set the output directory to build (React auto-detects this)
-	•	Vercel handles deployment automatically on every push
+	•	Set the output directory to build
+	•	Vercel automatically deploys on every push to main
 
-⸻
+## 📦 Installation
 
-📄 License
+To run the project locally:
+
+```bash
+git clone https://github.com/hamzajamil23/personal-portfolio-website.git
+cd personal-portfolio-website
+npm install
+npm start
+```
+
+## 📄 License
 
 This project is open source and available under the MIT License.
 
 ⸻
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Hamza Jamil
-🔗 LinkedIn
-💻 GitHub
+🔗 LinkedIn: LinkedIn: https://www.linkedin.com/in/hamzajamilbaig/
+💻 GitHub: https://github.com/hamzajamil23
 📧 hamzajamilbaig@gmail.com
+
+---
+
+## 📌 Acknowledgements
+
+This project was inspired by [Rafsan Ahmed’s Portfolio](https://github.com/rafsanahmed28/Rafsan).  
+While the design and layout provided a strong starting point, customizations are my own.
