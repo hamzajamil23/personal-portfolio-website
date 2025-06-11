@@ -3,31 +3,27 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../styles/TechStack.css";
 import { RiFileExcel2Fill } from "react-icons/ri";
+import { ReactComponent as PowerBiIcon } from '../powerbi.svg';
 import { VscVscode } from "react-icons/vsc";
 import { 
-  SiMysql, SiPostgresql, SiTableau, SiPython, 
-  SiPandas, SiNumpy, SiJupyter,
-  SiR, SiGit, SiFigma,
-  SiAdobeillustrator, SiAdobephotoshop
+  SiMysql,SiTableau, SiPython, 
+  SiPandas, SiNumpy, SiJupyter,SiGit
 } from "react-icons/si";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const techStackData = [
-  { name: "MySQL", icon: <SiMysql />, color: "#00758F" },
-  { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
+  
   { name: "Excel", icon: <RiFileExcel2Fill />, color: "#217346" },
-  { name: "Tableau", icon: <SiTableau />, color: "#E97627" },
+  { name: "Power BI", icon: <PowerBiIcon />, color: "#F2C811" },
   { name: "Python", icon: <SiPython />, color: "#3776AB" },
   { name: "Pandas", icon: <SiPandas />, color: "#150458" },
   { name: "NumPy", icon: <SiNumpy />, color: "#013243" },
-  { name: "R", icon: <SiR />, color: "#276DC3" },
   { name: "VS Code", icon: <VscVscode />, color: "#007ACC" },
   { name: "Git", icon: <SiGit />, color: "#F05032" },
+  { name: "Tableau", icon: <SiTableau />, color: "#E97627" },
+  { name: "MySQL", icon: <SiMysql />, color: "#00758F" },
   { name: "Jupyter", icon: <SiJupyter />, color: "#F37626" },
-  { name: "Figma", icon: <SiFigma />, color: "#F24E1E" },
-  { name: "Illustrator", icon: <SiAdobeillustrator />, color: "#FF9A00" },
-  { name: "Photoshop", icon: <SiAdobephotoshop />, color: "#31A8FF" },
 ];
 
 export default function TechStack() {

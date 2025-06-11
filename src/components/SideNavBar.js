@@ -40,16 +40,13 @@ export default function SideNavBar({ showStars, setShowStars }) {
   
   return (
     <div className="side-navbar" ref={sideNavRef}>
-      <a href="https://github.com/rafsanahmed28" title="GitHub" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
+      <a href="https://github.com/hamzajamil23" title="GitHub" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
         <Icon name="GitHub" className="sidenav-icon"/>
       </a>
-      <a href="https://www.linkedin.com/in/rafsanahmed28/" title="LinkedIn" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
+      <a href="https://www.linkedin.com/in/hamzajamilbaig/" title="LinkedIn" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
         <Icon name="Linkedin" className="sidenav-icon"/>
       </a>
-      <a href="https://medium.com/@rafsanahmed2828" title="Medium" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
-        <Icon name="Medium" className="sidenav-icon"/>
-      </a>
-      <a href="mailto:rafsanahmed2828@gmail.com" title="Email" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
+      <a href="mailto:hamzajamilbaig@gmail.com" title="Email" target="_blank" rel="noopener noreferrer" ref={addToRefs}>
         <Icon name="Email" className="sidenav-icon"/>
       </a>
       <div className="side-navbar-divider" ref={addToRefs}></div>

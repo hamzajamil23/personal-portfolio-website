@@ -8,46 +8,50 @@ gsap.registerPlugin(ScrollTrigger);
 
 const milestones = [
   {
-    title: "Masters at TMU",
-    description: "Enrolled in an Innovation and Entrepreneurship degree in an attempt to explore new fields and gain a broader perspective on business and technology.",
-    year: "Sep 2022 - Dec 2023",
-    type: "education" 
+    title: "Bachelors from UMT",
+    description: "Completed my BS in Mechanical Engineering from the University of Management and Technology (UMT), laying a strong technical foundation and a curiosity for problem-solving.",
+    year: "Sep 2019 - Aug 2023",
+    type: "education"
   },
   {
-    title: "Exposure to Data in Startup Environments",
-    description: "During my time at TMU, I worked at 3 different startups where I gained initial exposure to huge amounts of data during market research, which introduced me to the power of data analytics in decision making.",
-    year: "Sep 2022 - Jan 2024",
-    type: "startup",
-    learnMoreLink: "#experience", 
-    learnMoreText: "View Experience"
+    title: "Internship at Dominar Engineers (KSB Pumps)",
+    description: "Joined Dominar Engineers, a channel partner of KSB Pumps, as a Sales Engineer Intern. Gained exposure to industrial pumping systems and the sales process in large-scale engineering projects.",
+    year: "Sep 2023 - Oct 2023",
+    type: "startup"
   },
   {
-    title: "Decision to Pivot to Data Analytics",
-    description: "Realized my passion for data analytics and decided to pivot my career towards becoming a Data Analyst, focusing on data-driven decision making.",
-    year: "Jan 2024 - Feb 2024",
-    type: "career",
+    title: "Sales Engineer at Dominar Engineers",
+    description: "Promoted to Sales Engineer and managed industrial pump sales across Punjab and northern Pakistan. Closed over 25 million PKR in sales within 9 months.",
+    year: "Oct 2023 - Jun 2024",
+    type: "career"
   },
   {
-    title: "Google Data Analytics Professional Certificate",
-    description: "Completed Google's Data Analytics Professional Certificate, establishing core competencies in data preparation, analysis, and visualization.",
-    certificateUrl: "https://www.coursera.org/account/accomplishments/professional-cert/23OIJ3BGH8FJ",
-    year: "Mar 2024 - Sep 2024",
-    type: "google",
-
+    title: "Exploring Machine Learning and AI",
+    description: "Discovered machine learning during my undergrad, but my curiosity deepened when I encountered ChatGPT 3.0 in my third year. This sparked a long-term interest in data and AI.",
+    year: "2022 - 2024",
+    type: "career"
   },
   {
-    title: "First Data Projects",
-    description: "Built my first portfolio projects (Covid-19 and Cyclistic), analyzing real-world datasets using Excel, MySQL and creating visualizations with Tableau.",
-    year: "Sep 2024 - Dec 2024",
-    type: "project"
+    title: "Started Data Science and AI Certification (BIA)",
+    description: "Enrolled in the Data Science and AI Certificate Program at the Boston Institute of Analytics to formally pivot toward data-driven problem solving using Python, Pandas, scikit-learn, and Streamlit.",
+    year: "Jan 2024 - Aug 2024",
+    type: "education"
   },
   {
-    title: "Advanced Data Analysis & Storytelling",
-    description: "Deepened my skills in advanced data analysis techniques, delving deeper into advanced SQL queries,  and diving into Python to unlock even more powerful ways to explore, manipulate, and tell stories with data.",
-    year: "Jan 2025 - Present",
-    type: "statistics",
+    title: "Capstone Project: Fuel Price Predictor",
+    description: "Built a machine learning model using scikit-learn to predict fuel prices. Deployed the solution via a Streamlit web app. This marked my first full-cycle data project from preprocessing to deployment.",
+    year: "May 2024 - Jun 2024",
+    type: "project",
     learnMoreLink: "#projects",
     learnMoreText: "View Projects"
+  },
+  {
+    title: "Business Analyst at Turing",
+    description: "Joined Turing as a Business Analyst, where I currently work on building datasets for model training and applying advanced model fine-tuning techniques such as SFT, DPO, and RLHF to improve LLM performance. This role sits at the intersection of data, language models, and product insights.",
+    year: "Oct 2024 - Present",
+    type: "statistics",
+    learnMoreLink: "#experience",
+    learnMoreText: "View Experience" 
   }
 ];
 

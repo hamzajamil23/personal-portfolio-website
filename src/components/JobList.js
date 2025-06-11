@@ -3,46 +3,31 @@ import { gsap } from "gsap";
 import "../styles/Experience.css";
 
 const experienceItems = {
-  Reflect: {
-    jobTitle: "Project Lead @",
-    duration: "JAN 2023 - APR 2024",
+  "Turing": {
+    jobTitle: "Business Analyst @",
+    duration: "Oct 2024 - Present",
     desc: [
-      "Conducted 20+ customer interviews to understand user needs and pain points, translating insights into actionable business requirements and aligning product development with customer demands",
-      "Successfully secured $13,000 in grant funding by winning both Stage 1 and Stage 2 of the Norman Esch Awards, validating the venture's impact and potential"
+      "Build and curate high-quality datasets to support LLM training and evaluation pipelines.",
+      "Work with ML engineers to improve model quality through fine-tuning techniques such as SFT, DPO, and RLHF.",
+      "Analyze model outputs to provide feedback and assist in creating data-driven prompts and performance reports."
     ]
   },
-  "ShieldMate INC.": {
-    jobTitle: "Research Analyst @",
-    duration: "MAR 2023 - DEC 2023",
+  "Boston Institute of Analytics": {
+    jobTitle: "Data Science Trainee @",
+    duration: "Jan 2024 - May 2024",
     desc: [
-      "Utilized analytical skills to conduct in-depth market research, identify key market needs and trends to inform the development process for the innovative startup",
-      "Led the conceptualization and wireframing for the envisioned platform using Figma to guide app development and ensure maximum user satisfaction",
-      "Collaborated with various stakeholders and firms to forge strategic partnerships to amplify the app's reach and impact"
+      "Completed certification in Data Science and AI, covering Python, NumPy, Pandas, scikit-learn, and Streamlit.",
+      "Developed and deployed a fuel price prediction model as a capstone project using supervised ML techniques.",
+      "Gained hands-on experience with preprocessing, model evaluation, and web app deployment."
     ]
   },
-  HealthMate: {
-    jobTitle: "Technical Lead @",
-    duration: "SEP 2022 - FEB 2023",
+  "Dominar Engineers (KSB Pumps)": {
+    jobTitle: "Sales Engineer @",
+    duration: "Oct 2023 - Jun 2024",
     desc: [
-      "Led prototyping and product development, using Bubble.io for a no-code platform and guiding the team through technical decisions",
-      "Designed UI/UX assets in Figma and Adobe Illustrator to deliver a functional and user-friendly health tech interface"
-    ]
-  },
-  "Doctor's": {
-    jobTitle: "Executive Manager @",
-    duration: "JAN 2022 - AUG 2022",
-    desc: [
-      "Spearheaded the implementation of ERP solutions to streamline inventory and warehouse management processes, optimizing efficiency and ensuring smooth operations within the company",
-      "Acted as a technical expert, advising management on best practices and technologies to support business growth and scalability, demonstrating adaptability and a wide range of skills"
-    ]
-  },
-  Fiverr: {
-    jobTitle: "Graphic Designer @",
-    duration: "MAY 2020 - OCT 2021",
-    desc: [
-      "Collaborated with clients to understand their target audience and develop designs that effectively conveyed the desired sentiment, resulting in increased product sales and customer satisfaction",
-      "Leveraged graphic design skills and creativity to produce unique and compelling designs for global clients that stood out in the competitive Print-on-Demand market",
-      "Effectively managed client expectations, deadlines, and project requirements, demonstrating strong communication and time management skills"
+      "Managed pump sales across Punjab and the northern region for Dominar Engineers, a channel partner of KSB Pumps Pakistan.",
+      "Achieved over PKR 25 million in sales within 9 months by identifying high-value opportunities and maintaining key client relationships.",
+      "Provided technical consultation on pump sizing, selection, and application engineering for industrial clients."
     ]
   }
 };

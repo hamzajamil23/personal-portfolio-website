@@ -201,13 +201,17 @@ class NavBar extends React.Component {
       >
         <Container fluid style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <Navbar.Brand href="home" style={{ marginRight: "auto" }}>
-            <div className="logo-container btn-effect" ref={this.logoRef}>
+            <div
+              className="logo-container btn-effect"
+              ref={this.logoRef}
+              style={{ height: "60px", width: "60px" }}
+            >
               <img 
                 className="logo"
                 src="/assets/logo.png"
-                alt="Rafsan Ahmed Logo"
+                alt="Hamza Jamil Logo"
                 title="Logo"
-                style={{ height: "36px", width: "36px" }}
+                style={{ height: "60px", width: "60px" }}
               />
             </div>
           </Navbar.Brand>

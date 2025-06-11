@@ -156,12 +156,12 @@ const Intro = () => {
         <div className="typist-content">
           <div className="text-typing-container" style={{ position: "relative" }}>
             <span className="intro-title" ref={textRef}>Hi there! I'm </span>
-            <span className="intro-name" ref={nameRef}>Rafsan.</span>
+            <span className="intro-name" ref={nameRef}>Hamza Jamil</span>
             
             <div 
               ref={cursorRef} 
               className="windmill-cursor"
-              style={{ position: "absolute", pointerEvents: "none" }}
+              style={{ position: "absolute", pointerEvents: "none", left: "100%", marginLeft: "10px" }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 248 248">
                 <path fill="url(#windmill-gradient-1)" d="M152.266 123.716h94.275c.802 0 1.459.656 1.459 1.459v121.067c0 .81-.664 1.474-1.474 1.466-67.274-.78-121.669-55.137-122.522-122.387v121.22c0 .803-.657 1.459-1.46 1.459H1.474c-.81 0-1.474-.664-1.467-1.474C.795 178.721 56 124.008 123.996 124H1.459C.657 124 0 123.344 0 122.541V1.474C0 .664.664 0 1.474.008c67.274.78 121.669 55.137 122.522 122.387V1.46c0-.803.657-1.46 1.46-1.46h121.07c.81 0 1.474.664 1.467 1.474-.679 58.224-41.486 106.801-96.055 119.367-1.686.386-1.401 2.875.336 2.875h-.008Z"></path>
@@ -177,7 +177,7 @@ const Intro = () => {
         </div>
         
         <div className="intro-subtitle" ref={subtitleRef}>
-          A <span className="intro-subtitle-name">Data Analyst</span> with a love for design.
+          A <span className="intro-subtitle-name">Data Analyst</span> with a love for detail.
         </div>
         
         <div className="intro-desc" ref={descRef}>

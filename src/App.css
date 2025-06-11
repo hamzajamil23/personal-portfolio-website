@@ -23,8 +23,10 @@ html {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 300px;
+  width: auto;
   pointer-events: none;
+  margin: 20px;
 }
 
 a {
